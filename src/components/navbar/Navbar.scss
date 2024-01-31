@@ -1,0 +1,51 @@
+.nav {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+ margin-top: 2rem;
+ margin-bottom: 1rem;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+ margin-top: 2rem;
+ margin-bottom: 1rem;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+ margin-top: 2rem;
+ margin-bottom: 1rem;
+}
+//extra large
+ margin-top: 2rem;
+ margin-bottom: 1rem;
+}
+
+.brand_logo {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+font-family: var(--text-header);
+font-weight: bold;
+font-size: 2rem;
+text-align: center;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+font-family: var(--text-header);
+font-weight: bold;
+font-weight: bold;
+font-size: 2rem;
+text-align: center;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+font-family: var(--text-header);
+font-weight: bold;
+font-weight: bold;
+font-size: 2rem;
+text-align: center;
+}
+//extra large
+font-family: var(--text-header);
+font-weight: bold;
+font-size: 2rem;
+text-align: center;
+}

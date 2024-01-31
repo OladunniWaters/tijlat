@@ -3,7 +3,7 @@ import './Navbar.scss';
 function Navbar() {
 
   return (
-      <nav>
+      <nav className='nav'>
          <h1 className='brand_logo'>TIJLAT</h1>
       </nav>
   )

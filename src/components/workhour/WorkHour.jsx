@@ -4,7 +4,7 @@ function WorkHour() {
 
   return (
       <div>
-         <h1 className='brand_logo'>WorkHour</h1>
+         <h1 className='work'>WorkHour</h1>
       </div>
   )
 }

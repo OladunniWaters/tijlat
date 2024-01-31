@@ -4,7 +4,7 @@ function Gallery() {
 
   return (
       <div>
-         <h1 className='brand_logo'>Gallerys</h1>
+         <h1 className='Gallerys'>Gallerys</h1>
       </div>
   )
 }

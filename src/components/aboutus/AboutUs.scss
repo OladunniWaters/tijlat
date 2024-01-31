@@ -1,0 +1,115 @@
+.about_content_cont {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column-reverse;
+  gap: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column-reverse;
+  gap: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;
+  gap: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+//extra large
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;
+  gap: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+
+.about_content_header {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+font-family: var(--text-header);
+font-weight: bold;
+font-size: 2rem;
+text-align: center;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+font-family: var(--text-header);
+font-weight: bold;
+font-size: 2rem;
+text-align: center;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+font-family: var(--text-header);
+font-weight: bold;
+font-size: 2rem;
+text-align: center;
+}
+//extra large
+font-family: var(--text-header);
+font-weight: bold;
+font-size: 2rem;
+text-align: center;
+}
+
+.about_content_paragraph {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+font-family: var(--text-paragraph);
+font-size: 1rem
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+font-family: var(--text-paragraph);
+font-size: 1rem;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+font-family: var(--text-paragraph);
+font-size: 1rem;
+}
+//extra large
+font-family: var(--text-paragraph);
+font-size: 1rem;
+}
+
+.aboutus_image {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+width: 30rem;
+height: 30rem;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+width: 30rem;
+height: 30rem;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+width: 30rem;
+height: 30rem;
+}
+//extra large
+width: 30rem;
+height: 30rem;
+}

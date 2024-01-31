@@ -4,7 +4,7 @@ function ContactUs() {
 
   return (
       <div>
-         <h1 className='brand_logo'>ContactUs</h1>
+         <h1 className='contact'>ContactUs</h1>
       </div>
   )
 }

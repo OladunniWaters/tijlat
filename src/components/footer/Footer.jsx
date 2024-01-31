@@ -4,7 +4,7 @@ function Footer() {
 
   return (
       <div>
-         <h1 className='brand_logo'>Footers</h1>
+         <h1 className='footer'>Footers</h1>
       </div>
   )
 }
