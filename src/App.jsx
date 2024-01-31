@@ -6,9 +6,7 @@ import ContactUs from './components/contactus/ContactUs';
 import Footer from './components/footer/Footer';
 import Gallery from './components/gallery/Gallery';
 import WhyUs from './components/whyus/WhyUs';
-import WorkHour from './components/workhour/WorkHour';
 import Horianima from './components/horianima/Horianima';
-import Testimonials from './components/testimonials/Testimonials';
 
 
 function App() {
@@ -28,8 +26,6 @@ function App() {
         <AboutUs />
         <WhyUs />
         <ContactUs />
-        <WorkHour />
-        <Testimonials />
         <Footer />
       </div>
       </div>
