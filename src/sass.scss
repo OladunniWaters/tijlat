@@ -17,6 +17,13 @@
 
 
 
-font-family: 'Bodoni Moda', serif;
-font-family: 'Libre Bodoni', serif;
- 
+         <div className='hero_image_cont'>
+           <img src={heroImage} alt='tijlat_hero_image' className='hero_image'/>
+        </div>
+        
+        
+font-family: 'Radio Canada', sans-serif;
+font-family: 'Zen Antique', serif;
+
+font-family: 'Playfair Display', serif;
+font-family: 'Quattrocento', serif;

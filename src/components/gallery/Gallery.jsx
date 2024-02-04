@@ -7,9 +7,9 @@ import Data from "./data";
 function Gallery() {
 
   return (
-       <div className="AprProphecy">
+       <div className="gallery_cont">
          <div>
-            <h1 className="AprHeader">APRIL PROPHECIES</h1>
+            <h1 className="gallery_header">Gallery</h1>
          </div>
          
          <div className="cards">

@@ -29,6 +29,11 @@
  align-items: center;
  flex-direction: row;
   gap: 4rem;
+  color: #fff;
+  height: 35rem;
+  
+  background-image: url('../../assets/blackpic_1.jpg');
+  position: relative;
 }
 
 .hero_content_cont {
@@ -69,9 +74,8 @@ gap: 2rem;
 padding-top: 2rem;
 }
 //extra large
- width: 30rem;
+ width: 60rem;
  height: 33rem;
-// background-color: #789053;
  display: flex;
 justify-content: center;
 flex-direction: column;
@@ -99,7 +103,8 @@ font-size: 2rem;
 }
 //extra large
 font-family: var(--text-header);
-font-size: 2rem;
+font-size: 3rem;
+text-align: center;
 }
 
 

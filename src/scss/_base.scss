@@ -2,21 +2,25 @@
 
 /* LIGHT MODE Variables */
 :root{
-  --color-bg: #fff;
-  --color-text:  #000;
+  --color-bg: #000;
+  --color-text:  #fff;
   --color-icon:  #000;
-  --text-header: 'Bodoni Moda', serif;
-  --text-paragraph:'Libre Bodoni', serif;
+  --text-header: 'Playfair Display', serif;
+  --text-paragraph: 'Quattrocento', serif;
+  --color-footer-bg: #000;
+  --color-footer-text: #fff;
 ;
 }
   
   /* ========= Dark Theme Variable ========== */
 [data-theme = "dark"]{
-  --color-bg: #fff;
-  --color-text:  #000;
+  --color-bg: #000;
+  --color-text: #fff;
   --color-icon:  #000;
-  --text-header: 'Bodoni Moda', serif;
-  --text-paragraph:'Libre Bodoni', serif;
+  --text-header: 'Playfair Display', serif;
+  --text-paragraph: 'Quattrocento', serif;
+  --color-footer-bg: #000;
+  --color-footer-text: #fff;
 }
 
 *{

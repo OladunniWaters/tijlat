@@ -6,7 +6,7 @@ import ContactUs from './components/contactus/ContactUs';
 import Footer from './components/footer/Footer';
 import Gallery from './components/gallery/Gallery';
 import WhyUs from './components/whyus/WhyUs';
-import Horianima from './components/horianima/Horianima';
+//import Horianima from './components/horianima/Horianima';
 
 
 function App() {
@@ -21,7 +21,6 @@ function App() {
        <Navbar changeTheme={changeTheme}/>
        <div>
         <Hero />
-        <Horianima />
         <Gallery />
         <AboutUs />
         <WhyUs />

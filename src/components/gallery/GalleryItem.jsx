@@ -1,19 +1,11 @@
 import './GalleryItem.scss';
 
 export default function ProphecyCard( { prophecies }) {
-  const { id, prophecy , pastor,  image} = prophecies 
+  const { id, image, category } = prophecies 
   
   return (
-    <div className="ProphecyCard" id={id}>
-         <div className="pastorProphecy">
-            {prophecy} 
-         </div>
-         
-         <div className="span"></div>
-         <div  className="CardInfo">
-             <img src={image} alt={pastor} className="pastorImage"/>
-             <p className="pastorName">{pastor}</p>
-         </div>
+    <div className="gallery_item_cont" id={id}>
+        <img src={image} alt='gallery_images' className='gallery_image'/>
     </div>
   );
 }

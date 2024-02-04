@@ -12,52 +12,40 @@ import { BsInstagram } from "react-icons/bs";
 function ContactUs() {
 
   return (
-      <div> 
-            <h1 className='contact'>Contact Us</h1>
-            
-            <div>
-               <img src={contactImage} alt='tijlat_contactus_image' className='contactus_image'/>
-           </div> 
-            
-            
-            <div>
-                 <div>
-                    <p>
-                       Have a question? Our team is always ready to help. Feel free reach us anytime, we'll be glad to have you in our atelier.
-                    </p>
-                    <div>
-                       <FaLocationDot />
-                       <p>
-                         19A, Alake Street, Opposite Abeokuta South Local Government Secretariat, Ake, Abeokuta, Ogun State
-                       </p>
-                    </div>
-                    <div>
-                       <FaRegClock />
-                       <p>Monday - Saturday: 9am-7pm</p>
-                    </div>
-                    <div>
-                       <BsFillTelephoneFill />
-                       <p>0706 060 8035</p>
-                    </div>
-                    <div>
-                        <HiOutlineMail />
-                       <p>grandeurtailors@gmail.com</p>
-                    </div>
-                 </div>
-                 
-                 <div>
-                     <div>
-                        <RiWhatsappFill />
-                       <p>Contact us via whatsapp</p>
-                    </div>
-                    
-                     <div>
-                        <BsInstagram />
-                       <p>Follow Us on instagram</p>
-                    </div>
-                 </div>
-           </div>
+      <div className='contact'> 
            
+           <div className='contact_cont'>      
+                <div className='contact_image_cont'>
+                   <img src={contactImage} alt='tijlat_contactus_image' className='contactus_image'/>
+               </div> 
+                
+                
+                <div className='contact_content_cont'>
+                         <h1 className='contact_header'>Contact Us</h1>
+                        <p className='contact_content_p'>
+                           Have a question? Our team is always ready to help. Feel free reach us anytime, we'll be glad to have you in our atelier.
+                        </p>
+                        
+                        <div className='contact_location_cont'>
+                           <FaLocationDot className='contact_location_icon'/>
+                           <p className='contact_location_p'>
+                             19A, Alake Street, Opposite Abeokuta South Local Government Secretariat, Ake, Abeokuta, Ogun State
+                           </p>
+                        </div>
+                        
+                        <div className='contact_time_cont'>
+                           <FaRegClock className='contact_time_icon'/>
+                           <p className='contact_time_p'>Monday - Saturday: 9am-7pm</p>
+                        </div>
+                        
+                        <div className='contact_icon_cont'>
+                           <BsFillTelephoneFill className='contact_icon'/>
+                            <HiOutlineMail className='contact_icon'/>
+                            <RiWhatsappFill className='contact_icon'/>
+                            <BsInstagram className='contact_icon'/>
+                        </div>    
+               </div>
+               </div>
       </div>
   )
 }
