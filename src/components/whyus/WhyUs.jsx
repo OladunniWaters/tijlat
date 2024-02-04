@@ -4,7 +4,7 @@ function WhyUs() {
 
   return (
       <div className='why_content_cont'>
-         <h1 className='why_content_header'>Why Choose Us</h1>
+         <h1 className='why_content_header'>WHY CHOOSE US</h1>
          
          <div className='why_content_paragraph_cont'>
              <div className='why_paragraph_cont'>

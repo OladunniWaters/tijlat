@@ -6,9 +6,10 @@
  align-items: center;
  flex-direction: column;
   gap: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 2rem;
+    padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+ padding-bottom: 2rem;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -17,9 +18,6 @@
  align-items: center;
  flex-direction: column;
   gap: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 2rem;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -28,9 +26,6 @@
  align-items: center;
  flex-direction: column;
   gap: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 2rem;
 }
 //extra large
  display: flex;
@@ -38,38 +33,36 @@
  align-items: center;
  flex-direction: column;
   gap: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+   padding-top: 4rem;
+ padding-bottom: 4rem;
 }
 
 .why_content_header {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
 font-family: var(--text-header);
-font-weight: bold;
 font-size: 2rem;
 text-align: center;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
 font-family: var(--text-header);
-font-weight: bold;
 font-size: 2rem;
 text-align: center;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 font-family: var(--text-header);
-font-weight: bold;
 font-size: 2rem;
 text-align: center;
 }
 //extra large
 font-family: var(--text-header);
-font-weight: bold;
-font-size: 2rem;
+font-size: 2.5rem;
 text-align: center;
+margin-bottom: 2rem;
 }
 
 .why_content_paragraph_cont {
@@ -133,37 +126,41 @@ font-size: 1.2rem;
 @media screen and (min-width: 577px) and (max-width: 768px) {
 font-family: var(--text-header);
 font-weight: bold;
-font-size: 1rem;
+font-size: 1.2rem;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 font-family: var(--text-header);
 font-weight: bold;
-font-size: 1rem;
+font-size: 1.2rem;
 }
 //extra large
 font-family: var(--text-header);
 font-weight: bold;
-font-size: 1rem;
+font-size: 1.2rem;
 }
 
 .why_paragraph {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
 font-family: var(--text-paragraph);
-font-size: 1rem
+font-size: 1rem;
+line-height: 2rem;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
 font-family: var(--text-paragraph);
-font-size: 1rem
+font-size: 1rem;
+line-height: 2rem;
 }
 //large
 @media screen and (min-width: 769px) and (max-width: 992px) {
 font-family: var(--text-paragraph);
-font-size: 1rem
+font-size: 1rem;
+line-height: 2rem;
 }
 //extra large
 font-family: var(--text-paragraph);
-font-size: 1rem
+font-size: 1rem;
+line-height: 2rem;
 }

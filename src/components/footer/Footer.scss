@@ -5,12 +5,11 @@
  justify-content: center;
  align-items: center;
  flex-direction: column;
- gap: 1rem;
+ gap: 2rem;
  background-color: var( --color-footer-bg);
  color: var( --color-footer-text);
  padding-top: 2rem;
- padding-bottom: 2rem;
- margin-top: 2rem;
+ padding-bottom: 4rem;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -43,7 +42,7 @@ color: var( --color-footer-text);
  justify-content: center;
  align-items: center;
  flex-direction: row;
- gap: 20rem;
+ gap: 23rem;
  background-color: var( --color-footer-bg);
  color: var( --color-footer-text); 
   padding-top: 2rem;

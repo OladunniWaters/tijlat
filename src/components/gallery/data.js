@@ -8,7 +8,7 @@ const AprilData = [
   {
     id:2,
     image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706880146/Tijlat/image_13_z0pbfl.jpg",
-    category: 'senator',
+    category: 'shirt',
   },
   {
     id:3,
@@ -18,7 +18,7 @@ const AprilData = [
 {
   id:4,
     image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706879934/Tijlat/image_27_bsxotg.jpg",
-    category: 'senator',
+    category: 'shirt',
   },
      {
     id:5,
@@ -33,7 +33,7 @@ const AprilData = [
     {
     id:7,
     image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706880109/Tijlat/402636982_18131748571312395_1837782022911914951_n_abhxwr.jpg",
-    category: 'senator',
+    category: 'agbada',
   },
     {
     id:8,

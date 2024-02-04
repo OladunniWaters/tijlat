@@ -1,5 +1,5 @@
 import './ContactUs.scss';
-import contactImage from '../../assets/tijlat_hero_image.jpg';
+import contactImage from '../../assets/blackpic_6.jpg';
 
 import { FaLocationDot } from "react-icons/fa6";
 import { FaRegClock } from "react-icons/fa6";
@@ -21,7 +21,7 @@ function ContactUs() {
                 
                 
                 <div className='contact_content_cont'>
-                         <h1 className='contact_header'>Contact Us</h1>
+                         <h1 className='contact_header'>GET IN TOUCH</h1>
                         <p className='contact_content_p'>
                            Have a question? Our team is always ready to help. Feel free reach us anytime, we'll be glad to have you in our atelier.
                         </p>
@@ -39,10 +39,18 @@ function ContactUs() {
                         </div>
                         
                         <div className='contact_icon_cont'>
-                           <BsFillTelephoneFill className='contact_icon'/>
-                            <HiOutlineMail className='contact_icon'/>
-                            <RiWhatsappFill className='contact_icon'/>
-                            <BsInstagram className='contact_icon'/>
+                              <div className='contact_icon_item'>
+                                  <BsFillTelephoneFill className='contact_icon'/>
+                              </div>
+                               <div className='contact_icon_item'>
+                                   <HiOutlineMail className='contact_icon'/>
+                              </div>
+                               <div className='contact_icon_item'>
+                                  <RiWhatsappFill className='contact_icon'/>
+                              </div>
+                               <div className='contact_icon_item'>
+                                  <BsInstagram className='contact_icon'/>
+                              </div>
                         </div>    
                </div>
                </div>

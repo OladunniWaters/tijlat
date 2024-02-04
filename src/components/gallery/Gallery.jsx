@@ -9,7 +9,7 @@ function Gallery() {
   return (
        <div className="gallery_cont">
          <div>
-            <h1 className="gallery_header">Gallery</h1>
+            <h1 className="gallery_header">GALLERY</h1>
          </div>
          
          <div className="cards">
