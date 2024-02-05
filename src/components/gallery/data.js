@@ -17,27 +17,32 @@ const AprilData = [
   },
 {
   id:4,
-    image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706879934/Tijlat/image_27_bsxotg.jpg",
+    image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706880302/Tijlat/image_14_woyqcv.jpg",
     category: 'shirt',
   },
      {
     id:5,
-    image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706879927/Tijlat/image_3_m5qvmz.jpg",
+    image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706880050/Tijlat/image_20_hwe7z6.jpg",
     category: 'senator',
   },
       {
     id:6,
-    image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706880109/Tijlat/402636982_18131748571312395_1837782022911914951_n_abhxwr.jpg",
+    image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706880076/Tijlat/image_15_rnqkkh.jpg",
     category: 'senator',
   },
     {
     id:7,
-    image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706880109/Tijlat/402636982_18131748571312395_1837782022911914951_n_abhxwr.jpg",
+    image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706880021/Tijlat/image_8_es1eku.jpg",
     category: 'agbada',
   },
     {
     id:8,
-    image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706880109/Tijlat/402636982_18131748571312395_1837782022911914951_n_abhxwr.jpg",
+    image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706880113/Tijlat/406512206_18133953118312395_5556698112397095402_n_ul8gnq.jpg",
+    category: 'senator',
+  },
+   {
+    id:9,
+    image:"https://res.cloudinary.com/dzutmmwkf/image/upload/v1706879954/Tijlat/image_5_mbexob.jpg",
     category: 'senator',
   },
   
