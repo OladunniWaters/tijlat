@@ -213,7 +213,11 @@ height: 30rem;
 .contact_whatsapp_link {
   //small
 @media screen and (min-width: 320px) and (max-width: 576px) {
-
+color: #fff;
+background: #000;
+width: 3rem;
+height: 1.5rem;
+text-decoration: none;
 }
 // medium
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -225,6 +229,9 @@ height: 30rem;
 }
 //extra large
 color: #fff;
-
+background: #000;
+border-radius: 5px;
+padding: 0.5rem 1rem;
+text-decoration: none;
 }
 
