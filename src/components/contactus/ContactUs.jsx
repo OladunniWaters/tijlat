@@ -10,19 +10,28 @@ import { BsInstagram } from "react-icons/bs";
 
 import design from '../../assets/designpic_2.jpg';
 
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function ContactUs() {
+
+      useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  });
 
   return (
       <div className='contact'> 
            
            <div className='contact_cont'>      
-                <div className='contact_image_cont'>
+                <div data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000"  className='contact_image_cont'>
                    <img src={contactImage} alt='tijlat_contactus_image' className='contactus_image'/>
                </div> 
                 
                 
-                <div className='contact_content_cont'>
+                <div data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000" className='contact_content_cont'>
                          <h1 className='contact_header'>GET IN TOUCH</h1>
                         <p className='contact_content_p'>
                            Have a question? Our team is always ready to help. Feel free reach us anytime, we'll be glad to have you in our atelier.
