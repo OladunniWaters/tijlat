@@ -9,7 +9,7 @@ function Horianima() {
                
          <div className='banner-cont'>
               <div className='banner-icon-cont'>
-                   <p className='banner-p'>AUTUMN SALE</p>
+                   <p className='banner-p'>GET IN TOUCH</p>
                    <FaStarOfLife className='banner-star'/>
               </div>
               
@@ -24,7 +24,7 @@ function Horianima() {
               </div> 
                
               <div className='banner-icon-cont'>
-                   <p className='banner-p'>AUTUMN SALE</p>
+                   <p className='banner-p'>GET IN TOUCH</p>
                    <FaStarOfLife className='banner-star'/>
               </div>  
                
@@ -39,7 +39,7 @@ function Horianima() {
               </div>
                
               <div className='banner-icon-cont'>
-                   <p className='banner-p'>AUTUMN SALE</p>
+                   <p className='banner-p'>GET IN TOUCH</p>
                   <FaStarOfLife className='banner-star'/>
               </div>
                
@@ -54,7 +54,7 @@ function Horianima() {
               </div>
                
               <div className='banner-icon-cont'>
-                   <p className='banner-p'>AUTUMN SALE</p>
+                   <p className='banner-p'>GET IN TOUCH</p>
                    <FaStarOfLife className='banner-star'/>
               </div>
                

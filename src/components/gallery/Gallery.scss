@@ -58,18 +58,32 @@ text-align: center;
 font-size: 3.5rem;
 }
 
-
 .cards {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr); 
   gap: 1rem;
 }
-
-@media (min-width: 600px) {
-  .cards { grid-template-columns: repeat(2, 1fr); }
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 1rem;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 1rem;
+}
+//extra large
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1rem;
 }
 
-@media (min-width: 900px) {
-  .cards { grid-template-columns: repeat(3, 1fr); }
-}

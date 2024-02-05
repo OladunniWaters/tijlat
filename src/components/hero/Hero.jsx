@@ -1,5 +1,5 @@
 import './Hero.scss';
-//import heroImage from '../../assets/blackpic_2.jpg'
+
 
 function Hero() {
 

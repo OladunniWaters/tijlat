@@ -18,12 +18,32 @@
 
 
          <div className='hero_image_cont'>
-           <img src={heroImage} alt='tijlat_hero_image' className='hero_image'/>
+                     <img src={design} alt='design_image' className='design'/>
         </div>
         
-        
-font-family: 'Radio Canada', sans-serif;
-font-family: 'Zen Antique', serif;
+        .design {
+  //small
+@media screen and (min-width: 320px) and (max-width: 576px) {
+width: 0.5rem;
+height: 0.5rem;
+border-radius: 50%;
+}
+// medium
+@media screen and (min-width: 577px) and (max-width: 768px) {
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+}
+//large
+@media screen and (min-width: 769px) and (max-width: 992px) {
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+}
+//extra large
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+}
 
-font-family: 'Playfair Display', serif;
-font-family: 'Quattrocento', serif;
+        

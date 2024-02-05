@@ -32,7 +32,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-background: var(--color-text);
+background: #000;
+color: #fff;
 padding-top: 10px;
 }
 
@@ -141,7 +142,7 @@ font-size: 40px;
 display: flex;
 align-items: center;
 justify-content: center;
-color: var(--color-bg);
+color: var(--color-text);
 text-transform: uppercase;
 text-align: center;
 }
@@ -182,7 +183,7 @@ margin-top: 10px;
 margin-right: 20px;
 margin-left: 20px;
 font-size: 40px;
-color: var(--color-orange);
+color: var(--color-text);
 }
 
 
@@ -197,9 +198,9 @@ color: var(--color-orange);
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
   
-  -moz-animation: scrolling 15s linear infinite alternate-reverse;
-  -webkit-animation: scrolling 15s linear infinite alternate-reverse;
-  animation: scrolling 15s linear infinite alternate-reverse;
+  -moz-animation: scrolling 30s linear infinite alternate-reverse;
+  -webkit-animation: scrolling 30s linear infinite alternate-reverse;
+  animation: scrolling 30s linear infinite alternate-reverse;
 }
 
 

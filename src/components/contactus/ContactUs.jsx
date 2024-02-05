@@ -8,6 +8,8 @@ import { HiOutlineMail } from "react-icons/hi";
 import { RiWhatsappFill } from "react-icons/ri";
 import { BsInstagram } from "react-icons/bs";
 
+import design from '../../assets/designpic_2.jpg';
+
 
 function ContactUs() {
 
@@ -29,7 +31,7 @@ function ContactUs() {
                         <div className='contact_location_cont'>
                            <FaLocationDot className='contact_location_icon'/>
                            <p className='contact_location_p'>
-                             19A, Alake Street, Opposite Abeokuta South Local Government Secretariat, Ake, Abeokuta, Ogun State
+                             NO 1. Tanke Oke-Odo Beside Becadims Hotel Oko-Oba Street, Ilorin, Kwara State.
                            </p>
                         </div>
                         
@@ -39,18 +41,18 @@ function ContactUs() {
                         </div>
                         
                         <div className='contact_icon_cont'>
-                              <div className='contact_icon_item'>
+                              <a href='tel:07032636210' className='contact_icon_item'>
                                   <BsFillTelephoneFill className='contact_icon'/>
-                              </div>
-                               <div className='contact_icon_item'>
+                              </a>
+                               <a href='mailto:tijlatdesign@gmail.com' className='contact_icon_item'>
                                    <HiOutlineMail className='contact_icon'/>
-                              </div>
-                               <div className='contact_icon_item'>
+                              </a>
+                               <a href='https://wa.link/1gk4cs' target='_blank' className='contact_icon_item'>
                                   <RiWhatsappFill className='contact_icon'/>
-                              </div>
-                               <div className='contact_icon_item'>
+                              </a>
+                               <a href='https://www.instagram.com/tijlatdesign?igsh=MzRlODBiNWFlZA==' target='_blank' className='contact_icon_item'>
                                   <BsInstagram className='contact_icon'/>
-                              </div>
+                              </a>
                         </div>    
                </div>
                </div>
