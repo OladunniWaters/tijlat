@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
       <nav className='nav'>
-         <h1  className='brand_logo'>
+         <h1 data-aos="fade-right" data-aos-offset="400" data-aos-duration="1500"  className='brand_logo'>
             TIJLAT 
          </h1>
       </nav>
