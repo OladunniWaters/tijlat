@@ -8,7 +8,6 @@ import { HiOutlineMail } from "react-icons/hi";
 import { RiWhatsappFill } from "react-icons/ri";
 import { BsInstagram } from "react-icons/bs";
 
-import design from '../../assets/designpic_2.jpg';
 
 import React, { useEffect } from "react";
 import AOS from 'aos';
