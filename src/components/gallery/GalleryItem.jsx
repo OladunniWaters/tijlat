@@ -15,7 +15,7 @@ export default function ProphecyCard( { prophecies }) {
 
   
   return (
-    <div data-aos="fade-left" data-aos-offset="400" data-aos-duration="1500" className="gallery_item_cont" id={id}>
+    <div  className="gallery_item_cont" id={id}>
         <img src={image} alt='gallery_images' className='gallery_image'/>
     </div>
   );

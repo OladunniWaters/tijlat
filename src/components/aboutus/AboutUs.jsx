@@ -14,11 +14,11 @@ function AboutUs() {
 
   return (
       <div className='about_content_cont'>
-         <div data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000" >
+         <div  >
              <img src={aboutImage} alt='tijlat_aboutus_image' className='aboutus_image'/>
          </div>
          
-         <div data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
+         <div >
              <h1 className='about_content_header'>ABOUT US</h1>
              <p className='about_content_paragraph'> 
                  Based in Kwara, Nigeria, Tijlat Design stands as a pinnacle of bespoke craftsmanship with an unwavering dedication to excellence. Our firm conviction is rooted in the belief that nothing surpasses the allure of tailor-made apparel, and our mission is to make this accessible to everyone.

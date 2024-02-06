@@ -17,33 +17,21 @@
 
 
 
-         <div className='hero_image_cont'>
-                     <img src={design} alt='design_image' className='design'/>
-        </div>
-        
-        .design {
-  //small
-@media screen and (min-width: 320px) and (max-width: 576px) {
-width: 0.5rem;
-height: 0.5rem;
-border-radius: 50%;
-}
-// medium
-@media screen and (min-width: 577px) and (max-width: 768px) {
-width: 3rem;
-height: 3rem;
-border-radius: 50%;
-}
-//large
-@media screen and (min-width: 769px) and (max-width: 992px) {
-width: 3rem;
-height: 3rem;
-border-radius: 50%;
-}
-//extra large
-width: 3rem;
-height: 3rem;
-border-radius: 50%;
-}
+//navbar
+data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000"
 
-        
+//hero
+ data-aos="fade-left" data-aos-offset="400" data-aos-duration="1500"
+ data-aos="fade-right" data-aos-offset="400" data-aos-duration="2000" 
+ data-aos="fade-left" data-aos-offset="400" data-aos-duration="2500"
+ 
+ //galleryitem
+ data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000"
+ 
+ //about us
+ data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000"
+ data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000"
+ 
+ //contact us
+data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000" 
+data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000"
